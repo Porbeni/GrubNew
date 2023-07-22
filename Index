@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Breakfast Planner</title>
+</head>
+<body>
+  <h1>Breakfast Planner</h1>
+  <p>Enter your desired calories and protein below:</p>
+  <label for="calories">Calories:</label>
+  <input type="number" id="calories" placeholder="Enter calories">
+  <label for="protein">Protein:</label>
+  <input type="number" id="protein" placeholder="Enter protein">
+  <button onclick="calculateBreakfastPlan()">Plan Breakfast</button>
+  <div id="result"></div>
+
+  <script src="driver.js"></script>
+</body>
+</html>
