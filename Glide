@@ -1,0 +1,17 @@
+{
+  "name": "Breakfast Planner",
+  "description": "A JavaScript function to plan a breakfast based on user input calories and protein.",
+  "parameters": [
+    {
+      "name": "calories",
+      "type": "number",
+      "description": "The desired calories for the breakfast plan."
+    },
+    {
+      "name": "protein",
+      "type": "number",
+      "description": "The desired protein for the breakfast plan."
+    }
+  ],
+  "result": "array"
+}
